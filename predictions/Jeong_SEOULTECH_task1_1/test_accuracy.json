@@ -1,0 +1,94 @@
+{
+  "Device_Specific_Model": {
+    "Overall_Test_Accuracy": 57.93,
+    "Macro_Average_Accuracy": 57.93,
+    "Class_Wise_Accuracy": {
+      "airport": 55.0,
+      "bus": 67.17,
+      "metro": 52.36,
+      "metro_station": 48.59,
+      "park": 80.34,
+      "public_square": 46.09,
+      "shopping_mall": 69.97,
+      "street_pedestrian": 27.1,
+      "street_traffic": 76.73,
+      "tram": 55.91
+    },
+    "Device_Wise_Accuracy": {
+      "a": 69.82,
+      "b": 60.67,
+      "c": 64.8,
+      "s1": 53.55,
+      "s2": 54.94,
+      "s3": 57.82,
+      "s4": 54.67,
+      "s5": 55.12,
+      "s6": 50.0
+    },
+    "Real_Devices_Average_Accuracy": 65.1,
+    "Seen_Simulated_Devices_Average_Accuracy": 55.43,
+    "Unseen_Simulated_Devices_Average_Accuracy": 53.26
+  },
+  "General_Model": {
+    "Overall_Test_Accuracy": 54.62,
+    "Macro_Average_Accuracy": 54.61,
+    "Class_Wise_Accuracy": {
+      "airport": 47.6,
+      "bus": 61.99,
+      "metro": 54.11,
+      "metro_station": 50.94,
+      "park": 83.6,
+      "public_square": 37.68,
+      "shopping_mall": 64.21,
+      "street_pedestrian": 19.66,
+      "street_traffic": 73.91,
+      "tram": 52.43
+    },
+    "Device_Wise_Accuracy": {
+      "a": 64.33,
+      "b": 52.43,
+      "c": 57.33,
+      "s1": 51.39,
+      "s2": 51.7,
+      "s3": 54.58,
+      "s4": 54.67,
+      "s5": 55.12,
+      "s6": 50.0
+    },
+    "Real_Devices_Average_Accuracy": 58.04,
+    "Seen_Simulated_Devices_Average_Accuracy": 52.56,
+    "Unseen_Simulated_Devices_Average_Accuracy": 53.26
+  },
+  "Model_Comparison": {
+    "Overall_Accuracy_Improvement": 3.31,
+    "Macro_Average_Accuracy_Improvement": 3.31,
+    "Unseen_Device_Accuracy_Improvement": 0.0,
+    "Real_Device_Accuracy_Improvement": 7.06,
+    "Seen_Device_Accuracy_Improvement": 2.88
+  },
+  "Model_Type": "Student Device-Specific",
+  "Trained_Devices": [
+    "a",
+    "b",
+    "c",
+    "s1",
+    "s2",
+    "s3"
+  ],
+  "All_Devices": [
+    "a",
+    "b",
+    "c",
+    "s1",
+    "s2",
+    "s3",
+    "s4",
+    "s5",
+    "s6"
+  ],
+  "Unseen_Devices": [
+    "s4",
+    "s5",
+    "s6"
+  ]
+}
